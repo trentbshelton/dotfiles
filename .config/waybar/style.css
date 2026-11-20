@@ -1,3 +1,5 @@
+/* Mono theme: matches homelab map + LMU pit wall pages.
+   bg #000 · fg #ededed · dim #8c8c8c · mute #4a4a4a · line #262626 · alert #ff4d4d */
 * {
     font-family: "JetBrainsMono Nerd Font";
     font-size: 11px;
@@ -8,57 +10,60 @@
 
 window#waybar {
     background: #000000;
-    color: #d0d0d0;
+    color: #ededed;
+    border-bottom: 2px solid #ededed;
 }
 
 #workspaces button {
-    padding: 0 7px;
-    color: #777777;
+    padding: 0 8px;
+    color: #4a4a4a;
     background: transparent;
+    font-weight: bold;
 }
 
 #workspaces button.active {
-    color: #ffffff;
-    background: #3b6fd1;
+    color: #000000;
+    background: #ededed;
 }
 
 #workspaces button.urgent {
-    color: #ffffff;
-    background: #a33a3a;
+    color: #000000;
+    background: #ff4d4d;
 }
 
 #workspaces button:hover {
     background: #1a1a1a;
+    color: #ededed;
     box-shadow: none;
 }
 
 #clock {
-    color: #ffffff;
+    color: #ededed;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 #cpu, #memory, #temperature, #pulseaudio, #battery, #network {
-    padding: 0 7px;
-}
-
-#network {
-    padding-right: 7px;
+    padding: 0 8px;
+    color: #ededed;
 }
 
 #tray {
-    padding: 0 10px 0 7px;
+    padding: 0 10px 0 8px;
 }
 
 #tray menu {
     background: #000000;
-    color: #d0d0d0;
-    border: 1px solid #3a3a3a;
+    color: #ededed;
+    border: 1px solid #262626;
 }
 
-#battery.warning { color: #e0b050; }
-#battery.critical { color: #e05050; }
-#temperature.critical { color: #e05050; }
+#battery.warning { color: #ededed; font-weight: bold; }
+#battery.critical { color: #ff4d4d; font-weight: bold; }
+#temperature.critical { color: #ff4d4d; font-weight: bold; }
 
 tooltip {
     background: #000000;
-    border: 1px solid #3a3a3a;
+    border: 1px solid #262626;
 }
+tooltip label { color: #ededed; }

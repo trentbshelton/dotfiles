@@ -5,50 +5,50 @@
     "logo": {
         "type": "file",
         "source": "~/.config/fastfetch/logo.txt",
-        "color": { "1": "38;2;230;233;242" },
+        "color": { "1": "38;2;237;237;237" },
         "padding": { "top": 7, "left": 3, "right": 6 }
     },
     "display": {
         "separator": "  ",
-        "color": { "keys": "38;2;111;151;227", "output": "38;2;208;212;224" },
+        "color": { "keys": "38;2;237;237;237", "output": "38;2;200;200;200" },
         "bar": {
             "char": { "elapsed": "■", "total": "·" },
             "border": { "left": "[", "right": "]" },
-            "color": { "elapsed": "38;2;111;151;227", "total": "38;2;60;66;88", "border": "38;2;110;117;140" },
+            "color": { "elapsed": "38;2;237;237;237", "total": "38;2;38;38;38", "border": "38;2;140;140;140" },
             "width": 12
         },
         "percent": {
             "type": 3,
-            "color": { "green": "38;2;111;151;227", "yellow": "38;2;111;151;227", "red": "38;2;111;151;227" }
+            "color": { "green": "38;2;237;237;237", "yellow": "38;2;237;237;237", "red": "38;2;237;237;237" }
         }
     },
     "modules": [
-        { "type": "title", "format": "{#1}Hey, {#38;2;111;151;227}{user-name}" },
+        { "type": "title", "format": "{#1}Hey, {#38;2;237;237;237}{user-name}" },
         "break",
-        { "type": "custom", "format": "{#38;2;74;81;107}┌───────────────────────── {#38;2;111;151;227}Hardware{#38;2;74;81;107} ─────────────────────────┐" },
-        { "type": "cpu",     "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}CPU    ",     "format": "{name} ({cores-physical}C / {cores-logical}T) @ {freq-max}" },
-        { "type": "gpu",     "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}GPU    ",     "format": "{name} [{type}]" },
-        { "type": "memory",  "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}RAM    ",     "format": "{used} / {total} {percentage-bar} {percentage}" },
-        { "type": "swap",    "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}SWAP   ",    "format": "{used} / {total} {percentage-bar} {percentage}" },
-        { "type": "disk",    "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}DRIVE  ",   "folders": "/", "format": "{mountpoint}  {size-used} / {size-total} {size-percentage-bar} {size-percentage}" },
-        { "type": "battery", "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}BATTERY", "format": "{capacity-bar} {capacity}  {status}" },
-        { "type": "custom", "format": "{#38;2;74;81;107}└────────────────────────────────────────────────────────────┘" },
+        { "type": "custom", "format": "{#38;2;74;74;74}┌───────────────────────── {#38;2;237;237;237}Hardware{#38;2;74;74;74} ─────────────────────────┐" },
+        { "type": "cpu",     "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}CPU    ",     "format": "{name} ({cores-physical}C / {cores-logical}T) @ {freq-max}" },
+        { "type": "gpu",     "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}GPU    ",     "format": "{name} [{type}]" },
+        { "type": "memory",  "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}RAM    ",     "format": "{used} / {total} {percentage-bar} {percentage}" },
+        { "type": "swap",    "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}SWAP   ",    "format": "{used} / {total} {percentage-bar} {percentage}" },
+        { "type": "disk",    "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}DRIVE  ",   "folders": "/", "format": "{mountpoint}  {size-used} / {size-total} {size-percentage-bar} {size-percentage}" },
+        { "type": "battery", "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}BATTERY", "format": "{capacity-bar} {capacity}  {status}" },
+        { "type": "custom", "format": "{#38;2;74;74;74}└────────────────────────────────────────────────────────────┘" },
         "break",
-        { "type": "custom", "format": "{#38;2;74;81;107}┌───────────────────────── {#38;2;111;151;227}Session{#38;2;74;81;107} ──────────────────────────┐" },
-        { "type": "users",    "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}LOGIN  ", "format": "{name} // {login-time}" },
-        { "type": "wm",       "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}WM     " },
-        { "type": "shell",    "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}SHELL  " },
-        { "type": "terminal", "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}TERM   " },
-        { "type": "custom", "format": "{#38;2;74;81;107}└────────────────────────────────────────────────────────────┘" },
+        { "type": "custom", "format": "{#38;2;74;74;74}┌───────────────────────── {#38;2;237;237;237}Session{#38;2;74;74;74} ──────────────────────────┐" },
+        { "type": "users",    "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}LOGIN  ", "format": "{name} // {login-time}" },
+        { "type": "wm",       "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}WM     " },
+        { "type": "shell",    "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}SHELL  " },
+        { "type": "terminal", "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}TERM   " },
+        { "type": "custom", "format": "{#38;2;74;74;74}└────────────────────────────────────────────────────────────┘" },
         "break",
-        { "type": "custom", "format": "{#38;2;74;81;107}┌────────────────────── {#38;2;111;151;227}Uptime / Date{#38;2;74;81;107} ───────────────────────┐" },
-        { "type": "uptime",   "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}UPTIME " },
-        { "type": "datetime", "key": "{#38;2;74;81;107}├─ {#38;2;111;151;227}DATE   ", "format": "{year}-{month-pretty}-{day-pretty} {hour-pretty}:{minute-pretty}:{second-pretty}" },
-        { "type": "custom", "format": "{#38;2;74;81;107}└────────────────────────────────────────────────────────────┘" },
+        { "type": "custom", "format": "{#38;2;74;74;74}┌────────────────────── {#38;2;237;237;237}Uptime / Date{#38;2;74;74;74} ───────────────────────┐" },
+        { "type": "uptime",   "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}UPTIME " },
+        { "type": "datetime", "key": "{#38;2;74;74;74}├─ {#38;2;237;237;237}DATE   ", "format": "{year}-{month-pretty}-{day-pretty} {hour-pretty}:{minute-pretty}:{second-pretty}" },
+        { "type": "custom", "format": "{#38;2;74;74;74}└────────────────────────────────────────────────────────────┘" },
         "break",
         {
             "type": "command", "key": " ",
-            "text": "h=$(date +%H); if [ $h -lt 5 ]; then g='Still up?'; e='(-.-)zzZ'; elif [ $h -lt 12 ]; then g='Good morning!'; e='(^o^)/'; elif [ $h -lt 18 ]; then g='Good afternoon!'; e='≧◡≦'; else g='Good evening!'; e='(=^.^=)'; fi; printf '\\033[1;38;2;200;206;222m%s %s. \\033[38;2;111;151;227m%s\\033[0m' \"$g\" \"$USER\" \"$e\""
+            "text": "h=$(date +%H); if [ $h -lt 5 ]; then g='Still up?'; e='(-.-)zzZ'; elif [ $h -lt 12 ]; then g='Good morning!'; e='(^o^)/'; elif [ $h -lt 18 ]; then g='Good afternoon!'; e='≧◡≦'; else g='Good evening!'; e='(=^.^=)'; fi; printf '\\033[1;38;2;200;206;222m%s %s. \\033[38;2;237;237;237m%s\\033[0m' \"$g\" \"$USER\" \"$e\""
         },
         "break",
         { "type": "colors", "symbol": "circle", "paddingLeft": 1 }

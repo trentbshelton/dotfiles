@@ -20,33 +20,33 @@
         "tooltip-format": "<tt>{calendar}</tt>"
     },
     "cpu": {
-        "format": "<span color='#777777'>cpu</span> {usage}%",
+        "format": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>CPU</span> {usage}%",
         "interval": 3
     },
     "memory": {
-        "format": "<span color='#777777'>mem</span> {percentage}%",
+        "format": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>MEM</span> {percentage}%",
         "interval": 5
     },
     "temperature": {
         "thermal-zone": 0,
         "critical-threshold": 85,
-        "format": "<span color='#777777'>tmp</span> {temperatureC}°C"
+        "format": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>TMP</span> {temperatureC}°C"
     },
     "pulseaudio": {
-        "format": "<span color='#777777'>vol</span> {volume}%",
-        "format-muted": "<span color='#777777'>vol</span> mute",
+        "format": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>VOL</span> {volume}%",
+        "format-muted": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>VOL</span> mute",
         "on-click": "pavucontrol"
     },
     "battery": {
         "states": { "warning": 25, "critical": 12 },
-        "format": "<span color='#777777'>bat</span> {capacity}%",
-        "format-charging": "<span color='#777777'>bat</span> {capacity}%+",
+        "format": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>BAT</span> {capacity}%",
+        "format-charging": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>BAT</span> {capacity}%+",
         "interval": 30
     },
     "network": {
-        "format-wifi": "<span color='#777777'>wifi</span> {signalStrength}%",
-        "format-ethernet": "<span color='#777777'>eth</span> up",
-        "format-disconnected": "<span color='#777777'>net</span> off",
+        "format-wifi": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>WIFI</span> {signalStrength}%",
+        "format-ethernet": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>ETH</span> up",
+        "format-disconnected": "<span color='#8c8c8c' weight='bold' letter_spacing='1200'>NET</span> off",
         "tooltip-format-wifi": "{essid} — {ipaddr}",
         "on-click": "ghostty -e nmtui"
     }
